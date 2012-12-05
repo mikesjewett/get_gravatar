@@ -3,10 +3,11 @@ require File.expand_path('../lib/get_gravatar/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["MJ"]
-  gem.email         = ["mike@pearstack.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.email         = ["mikejewett@bloc.io"]
+  gem.description   = %q{Returns a Gravatar image for a given user}
+  gem.summary       = %q{Returns a Gravatar image for a given user.
+                         Requires valid name and email user attributes.}
+  gem.homepage      = "http://bloc.io"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
