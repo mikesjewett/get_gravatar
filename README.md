@@ -1,6 +1,6 @@
 # GetGravatar
 
-TODO: Write a gem description
+Returns a Gravatar image for a given user. Requires valid name and email user attributes.
 
 ## Installation
 
