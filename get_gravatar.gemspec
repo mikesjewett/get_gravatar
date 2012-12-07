@@ -6,8 +6,11 @@ Gem::Specification.new do |gem|
   gem.email         = ["mikejewett@bloc.io"]
   gem.description   = %q{Returns a Gravatar image for a given user}
   gem.summary       = %q{Returns a Gravatar image for a given user.
-                         Requires valid name and email user attributes.}
-  gem.homepage      = "http://bloc.io"
+                         Requires valid name and email user attributes.
+                         This gem was built for educational purposes and uses
+                         the gravatar_for method from the Rails Tutorial by
+                         Michael Hartl.}
+  gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
