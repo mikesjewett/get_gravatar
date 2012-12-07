@@ -1,6 +1,6 @@
 # GetGravatar
 
-Returns a Gravatar image for a given user. Requires valid name and email user attributes.
+Returns a Gravatar image for a given user. Requires valid name and email user attributes. This was created for an educational purpose, and uses the gravatar_for method from the [Rails Tutorial](http://ruby.railstutorial.org/chapters/sign-up#sec-a_gravatar_image) by Michael Hartl.
 
 ## Installation
 
